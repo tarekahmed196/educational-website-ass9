@@ -16,13 +16,12 @@ function App() {
       children:[
         {
           path:'/',
-          loader: ()=> fetch("https://run.mocky.io/v3/37881ade-8d55-4a11-8a32-f168616768d3"),
-          // loader: ()=> fetch("https://eduflex1.free.beeceptor.com"),
+          loader: ()=> fetch("https://run.mocky.io/v3/66279e15-a170-40bc-9740-04a415842a5f"),
           element: <Home></Home>
         },
         {
           path:'/services',
-          loader: ()=> fetch("https://run.mocky.io/v3/37881ade-8d55-4a11-8a32-f168616768d3"),
+          loader: ()=> fetch("https://run.mocky.io/v3/66279e15-a170-40bc-9740-04a415842a5f"),
           element: <Services></Services>
         },
         {
